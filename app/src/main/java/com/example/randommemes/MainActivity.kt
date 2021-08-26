@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
                 }).into(memeImage)
             },
             Response.ErrorListener {
-                Toast.makeText(this, "oops, something went wrong", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Oops, something went wrong", Toast.LENGTH_LONG).show()
             })
 
         // Add the request to the RequestQueue.

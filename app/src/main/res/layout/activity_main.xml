@@ -37,7 +37,7 @@
         android:contentDescription="Share"
         android:foregroundGravity="center_horizontal"
         android:onClick="share"
-        android:padding="20dp"
+        android:padding="17dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"

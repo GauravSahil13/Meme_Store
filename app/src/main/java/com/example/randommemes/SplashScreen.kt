@@ -24,6 +24,6 @@ class SplashScreen : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
-        }, 1750) // 2000 is the delayed time in milliseconds.
+        }, 4200) // 2000 is the delayed time in milliseconds.
     }
 }
